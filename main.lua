@@ -13,14 +13,6 @@ VoidPart.Size = Vector3.new(2048, 11, 2048)
 VoidPart.Anchored = true
 VoidPart.Transparency = 1
 VoidPart.CanCollide = false
-
-local Safe = Instance.new("Part", VoidPart)
-Safe.Position = Vector3.new(595, 120, -330)
-Safe.Name = "Safe"
-Safe.Size = Vector3.new(2000, 10, 2000)
-Safe.Anchored = true
-Safe.Transparency = 1
-Safe.CanCollide = true
 end
 
 local Script = Window:MakeTab({
